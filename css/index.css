@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root{
@@ -14,13 +15,18 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 #vanta{
-    width: 100%;
-    height: 100vw;
-    z-index: -1;
+    z-index: 0;
     position: absolute;
+    width: 100vw;
+    height: 100rem;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 main{
     position: relative;
@@ -46,7 +52,6 @@ header h1{
     width: 12rem;
     font-size: 2rem;
     padding: .5rem;
-    
 }
 
 img{
@@ -54,13 +59,11 @@ img{
     border-radius: 100%;
     margin-top: 6rem;
     margin-bottom: 1.6rem;
-    
 }
 
-svg {
+svg{
     width: 2.4rem;
 }
-
 
 ul li a{
     color: black;
@@ -71,7 +74,8 @@ ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    gap: .8rem;
+    position: relative;
 }
 
 ul{
@@ -88,5 +92,4 @@ ul li{
     padding: 1rem;
     margin-block: 1.4rem;
     width: 18rem;
-   
 }
