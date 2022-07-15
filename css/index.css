@@ -55,6 +55,7 @@ header h1{
     width: 12rem;
     font-size: 2rem;
     padding: .5rem;
+    border: 0.2rem solid #FFFa;
 }
 
 img{
@@ -62,6 +63,7 @@ img{
     border-radius: 100%;
     margin-top: 6rem;
     margin-bottom: 1.6rem;
+    border: 0.3rem solid black;
 }
 
 svg{
